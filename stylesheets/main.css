@@ -8980,7 +8980,7 @@ section#footer .big-title {
   font-family: "Playfair Display", serif;
   font-size: 120px;
   text-align: center;
-  color: #fff;
+  color: #9fd5f1;
   text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
 }
 /* line 188, ../sass/main.scss */
@@ -8991,13 +8991,14 @@ section#footer .big-title .amp {
 section#footer .date {
   margin-top: 1em;
   font-family: "Playfair Display", serif;
-  font-size: 40px;
+  font-size: 90px;
+  font-weight: 600;
   text-align: center;
-  color: #e6e6e6;
-  text-shadow: #444 1px 1px 2px;
+  color: #9fd5f1;
+  text-shadow: rgba(0, 0, 0, 0.8) 2px 2px 2px;
 }
 
-/* line 205, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 #amazon {
   background-size: contain;
   background-repeat: no-repeat;
@@ -9006,12 +9007,12 @@ section#footer .date {
   animation: all 0.5s ease-in-out 0.5s;
 }
 
-/* line 213, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 #amazon:hover {
   background-image: url("../images/amazon-hover.jpg");
 }
 
-/* line 216, ../sass/main.scss */
+/* line 217, ../sass/main.scss */
 #paypal {
   background-size: contain;
   background-repeat: no-repeat;
@@ -9020,12 +9021,12 @@ section#footer .date {
   animation: all 0.5s ease-in-out 0.5s;
 }
 
-/* line 223, ../sass/main.scss */
+/* line 224, ../sass/main.scss */
 #paypal:hover {
   background-image: url("../images/paypal-hover.png");
 }
 
-/* line 227, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 #ikea {
   background-size: contain;
   background-repeat: no-repeat;
@@ -9034,22 +9035,22 @@ section#footer .date {
   height: 40px;
 }
 
-/* line 235, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 #ikea:hover {
   background-image: url("../images/ikea-hover.jpg");
 }
 
-/* line 239, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 #preload-01 {
   background: url("../images/paypal-hover.png") no-repeat -9999px -9999px;
 }
 
-/* line 240, ../sass/main.scss */
+/* line 241, ../sass/main.scss */
 #preload-02 {
   background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px;
 }
 
-/* line 241, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 #preload-03 {
   background: url("../images/ikea-hover.jpg") no-repeat -9999px -9999px;
 }

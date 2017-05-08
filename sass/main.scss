@@ -184,7 +184,7 @@ section#footer {
     font-family: "Playfair Display", serif;
     font-size: 120px;
     text-align: center;
-    color: $intro-text;
+    color: $color-4;
     .amp {
       color: $intro-text-amp;
     }
@@ -193,10 +193,11 @@ section#footer {
   .date {
     margin-top: 1em;
     font-family: "Playfair Display", serif;
-    font-size: 40px;
+    font-size: 90px;
+    font-weight: 600;
     text-align: center;
-    color: $intro-text-date;
-    text-shadow: #444 1px 1px 2px;
+    color: $color-4;
+    text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
 
   }
 
