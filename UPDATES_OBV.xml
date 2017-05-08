@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<updates>
+<stable>
+	  <version>0.7.0</version>
+	  <link os="windows">http://openbv.uucyc.name/downloads/openBibleViewer-0.7.0-win32.exe</link>
+	  <link os="linux">http://openbv.uucyc.name/downloads-all</link>
+
+</stable>
+<unstable>
+	<version>0.7.90</version>
+	<link os="windows">https://www.dropbox.com/s/rbfk1g092eyzt9a/openBibleViewer-0.7.90-win32.exe</link>
+    <link os="linux">http://metaxy.github.com/openBibleViewer/</link>
+</unstable>
+</updates>
