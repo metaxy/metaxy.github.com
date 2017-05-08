@@ -99,6 +99,7 @@ section#venue {
 section#photos {
   background-color: $color-1;
   color: #fff;
+  padding-bottom: 2em;
   h2 {
     color: #fff !important;
     margin-top: 1em;
@@ -107,7 +108,7 @@ section#photos {
 }
 
 section#gifts {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   .text {
     margin-bottom: 1em;
   }
@@ -119,13 +120,26 @@ section#gifts {
 
 
 section#livestream {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 
   background-color: $color-3;
 
   h2 {
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+
+  .player {
+    margin: 2em auto;
+    border: 1px solid #fff;
+    background-color: $color-5;
+    height: 540px;
+    width: 960px;
+    i {
+      font-size: 80px;
+      margin-top: 540px/2-40px;
+      color: #fff;
+    }
   }
 }
 

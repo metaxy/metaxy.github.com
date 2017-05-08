@@ -8887,40 +8887,55 @@ section#venue .text {
 section#photos {
   background-color: #c8927e;
   color: #fff;
+  padding-bottom: 2em;
 }
-/* line 102, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 section#photos h2 {
   color: #fff !important;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 section#gifts {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
-/* line 111, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 section#gifts .text {
   margin-bottom: 1em;
 }
-/* line 114, ../sass/main.scss */
+/* line 115, ../sass/main.scss */
 section#gifts h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 section#livestream {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   background-color: #e6dce7;
 }
-/* line 126, ../sass/main.scss */
+/* line 127, ../sass/main.scss */
 section#livestream h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
 /* line 132, ../sass/main.scss */
+section#livestream .player {
+  margin: 2em auto;
+  border: 1px solid #fff;
+  background-color: #70b6ea;
+  height: 540px;
+  width: 960px;
+}
+/* line 138, ../sass/main.scss */
+section#livestream .player i {
+  font-size: 80px;
+  margin-top: 230px;
+  color: #fff;
+}
+
+/* line 146, ../sass/main.scss */
 section#footer {
   height: 4em;
 }
