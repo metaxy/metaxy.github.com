@@ -8828,7 +8828,7 @@ section {
 section h2 {
   font-size: 2.5em;
   text-transform: uppercase;
-  color: #70b6ea;
+  color: #505050;
 }
 /* line 50, ../sass/main.scss */
 section h2:before {
@@ -8854,7 +8854,7 @@ section#intro {
 /* line 68, ../sass/main.scss */
 section#intro .big-title {
   font-family: "Playfair Display", serif;
-  font-size: 90px;
+  font-size: 120px;
   text-align: center;
   color: #fff;
   text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
@@ -8885,7 +8885,7 @@ section#venue .text {
 
 /* line 99, ../sass/main.scss */
 section#photos {
-  background-color: #c8927e;
+  background-color: #9fd5f1;
   color: #fff;
   padding-bottom: 2em;
 }
@@ -8897,30 +8897,48 @@ section#photos h2 {
 }
 
 /* line 110, ../sass/main.scss */
-section#gifts {
+section#about {
+  background-color: #9fd5f1;
+  color: #fff;
   padding-bottom: 2em;
 }
-/* line 112, ../sass/main.scss */
-section#gifts .text {
+/* line 114, ../sass/main.scss */
+section#about h2 {
+  color: #fff !important;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 115, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
+section#about h3 {
+  font: 42px "Kristi", sans-serif;
+}
+
+/* line 126, ../sass/main.scss */
+section#gifts {
+  padding-bottom: 3em;
+}
+/* line 128, ../sass/main.scss */
+section#gifts .text {
+  margin-bottom: 2em;
+}
+/* line 131, ../sass/main.scss */
 section#gifts h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 122, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 section#livestream {
   padding-bottom: 2em;
   background-color: #e6dce7;
 }
-/* line 127, ../sass/main.scss */
+/* line 143, ../sass/main.scss */
 section#livestream h2 {
   margin-top: 1em;
   margin-bottom: 1em;
+  color: #505050 !important;
 }
-/* line 132, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 section#livestream .player {
   margin: 2em auto;
   border: 1px solid #fff;
@@ -8928,14 +8946,52 @@ section#livestream .player {
   height: 540px;
   width: 960px;
 }
-/* line 138, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 section#livestream .player i {
   font-size: 80px;
   margin-top: 230px;
   color: #fff;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 section#footer {
   height: 4em;
+}
+
+/* line 167, ../sass/main.scss */
+#amazon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/amazon.jpg");
+  height: 40px;
+  animation: all 0.5s ease-in-out 0.5s;
+}
+
+/* line 175, ../sass/main.scss */
+#amazon:hover {
+  background-image: url("../images/amazon-hover.jpg");
+}
+
+/* line 178, ../sass/main.scss */
+#paypal {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/paypal.png");
+  height: 40px;
+  animation: all 0.5s ease-in-out 0.5s;
+}
+
+/* line 185, ../sass/main.scss */
+#paypal:hover {
+  background-image: url("../images/paypal-hover.png");
+}
+
+/* line 189, ../sass/main.scss */
+#preload-01 {
+  background: url("../images/paypal-hover.png") no-repeat -9999px -9999px;
+}
+
+/* line 190, ../sass/main.scss */
+#preload-02 {
+  background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px;
 }

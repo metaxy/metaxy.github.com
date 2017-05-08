@@ -16,7 +16,7 @@ $intro-text: #fff;
 $intro-text-amp: $color-3;
 $intro-text-date: darken($intro-text, 10%);
 
-$section-heading: $color-5;
+$section-heading: #505050 ;
 
 html,body {
   height: 100%;
@@ -67,7 +67,7 @@ section#intro {
 
   .big-title {
     font-family: "Playfair Display", serif;
-    font-size: 90px;
+    font-size: 120px;
     text-align: center;
     color: $intro-text;
     .amp {
@@ -97,7 +97,7 @@ section#venue {
 }
 
 section#photos {
-  background-color: $color-1;
+  background-color: $color-4;
   color: #fff;
   padding-bottom: 2em;
   h2 {
@@ -107,10 +107,26 @@ section#photos {
   }
 }
 
-section#gifts {
+section#about {
+  background-color: $color-4;
+  color: #fff;
   padding-bottom: 2em;
-  .text {
+  h2 {
+    color: #fff !important;
+    margin-top: 1em;
     margin-bottom: 1em;
+
+  }
+  h3 {
+    font: 42px "Kristi", sans-serif;
+
+  }
+}
+
+section#gifts {
+  padding-bottom: 3em;
+  .text {
+    margin-bottom: 2em;
   }
   h2 {
     margin-top: 1em;
@@ -127,6 +143,7 @@ section#livestream {
   h2 {
     margin-top: 1em;
     margin-bottom: 1em;
+    color: #505050 !important;
   }
 
   .player {
@@ -146,3 +163,28 @@ section#livestream {
 section#footer {
   height: 4em;
 }
+
+#amazon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/amazon.jpg");
+  height: 40px;
+  animation: all 0.5s ease-in-out 0.5s;
+
+}
+#amazon:hover {
+  background-image: url("../images/amazon-hover.jpg");
+}
+#paypal {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/paypal.png");
+  height: 40px;
+  animation: all 0.5s ease-in-out 0.5s;
+}
+#paypal:hover {
+  background-image: url("../images/paypal-hover.png");
+}
+
+#preload-01 { background: url("../images/paypal-hover.png") no-repeat -9999px -9999px; }
+#preload-02 { background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px; }
