@@ -16,14 +16,15 @@ $intro-text: #fff;
 $intro-text-amp: $color-3;
 $intro-text-date: darken($intro-text, 10%);
 
-$section-heading: #505050 ;
+$section-heading: #505050;
+$text-color: #5f5f5f;
 
 html,body {
   height: 100%;
 }
 body {
   font: 18px "Open Sans", sans-serif;
-  color: #5f5f5f;
+  color: $text-color;
   position: relative;
 }
 
@@ -75,6 +76,13 @@ section#intro {
     }
     text-shadow: rgba(0,0,0,0.7) 2px 2px 2px;
   }
+  .medium-title {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    text-align: center;
+    color: $intro-text;
+    text-shadow: rgba(0,0,0,0.7) 2px 2px 2px;
+  }
   .date {
     margin-top: 1em;
     font-family: "Playfair Display", serif;
@@ -93,6 +101,9 @@ section#venue {
   }
   .text {
     margin-bottom: 2em;
+    a {
+      color: darken($color-4, 15%);
+    }
   }
 }
 
@@ -149,9 +160,9 @@ section#livestream {
   .player {
     margin: 2em auto;
     border: 1px solid #fff;
-    background-color: $color-5;
+    background-color: #222;
     height: 540px;
-    width: 960px;
+    width: 90%;
     i {
       font-size: 80px;
       margin-top: 540px/2-40px;
@@ -186,5 +197,18 @@ section#footer {
   background-image: url("../images/paypal-hover.png");
 }
 
+#ikea {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/ikea.jpg");
+  animation: all 0.5s ease-in-out 0.5s;
+  height: 40px;
+
+}
+#ikea:hover {
+  background-image: url("../images/ikea-hover.jpg");
+}
+
 #preload-01 { background: url("../images/paypal-hover.png") no-repeat -9999px -9999px; }
 #preload-02 { background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px; }
+#preload-03 { background: url("../images/ikea-hover.jpg") no-repeat -9999px -9999px; }

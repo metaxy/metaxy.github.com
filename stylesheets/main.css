@@ -8791,57 +8791,57 @@ button.close {
     display: none !important;
   }
 }
-/* line 21, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 html, body {
   height: 100%;
 }
 
-/* line 24, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 body {
   font: 18px "Open Sans", sans-serif;
   color: #5f5f5f;
   position: relative;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 .container-table {
   display: table;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 .vertical-center-row {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 section {
   text-align: center;
 }
-/* line 45, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 section h2 {
   font-size: 2.5em;
   text-transform: uppercase;
   color: #505050;
 }
-/* line 50, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 section h2:before {
   content: url(../images/heading-before.png);
   margin-right: 20px;
 }
-/* line 54, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 section h2:after {
   content: url(../images/heading-after.png);
   margin-left: 20px;
 }
 
-/* line 59, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 section#intro {
   background-attachment: fixed;
   background-size: cover;
@@ -8851,7 +8851,7 @@ section#intro {
   background-image: url(../images/strauss1.jpg);
   background-color: #9fd5f1;
 }
-/* line 68, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 section#intro .big-title {
   font-family: "Playfair Display", serif;
   font-size: 120px;
@@ -8859,11 +8859,19 @@ section#intro .big-title {
   color: #fff;
   text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
 }
-/* line 73, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 section#intro .big-title .amp {
   color: #e6dce7;
 }
-/* line 78, ../sass/main.scss */
+/* line 79, ../sass/main.scss */
+section#intro .medium-title {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
+}
+/* line 86, ../sass/main.scss */
 section#intro .date {
   margin-top: 1em;
   font-family: "Playfair Display", serif;
@@ -8873,92 +8881,96 @@ section#intro .date {
   text-shadow: #444 1px 1px 2px;
 }
 
-/* line 90, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 section#venue h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 94, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 section#venue .text {
   margin-bottom: 2em;
 }
+/* line 104, ../sass/main.scss */
+section#venue .text a {
+  color: #5cb8e7;
+}
 
-/* line 99, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 section#photos {
   background-color: #9fd5f1;
   color: #fff;
   padding-bottom: 2em;
 }
-/* line 103, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 section#photos h2 {
   color: #fff !important;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 121, ../sass/main.scss */
 section#about {
   background-color: #9fd5f1;
   color: #fff;
   padding-bottom: 2em;
 }
-/* line 114, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 section#about h2 {
   color: #fff !important;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 120, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 section#about h3 {
   font: 42px "Kristi", sans-serif;
 }
 
-/* line 126, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 section#gifts {
   padding-bottom: 3em;
 }
-/* line 128, ../sass/main.scss */
+/* line 139, ../sass/main.scss */
 section#gifts .text {
   margin-bottom: 2em;
 }
-/* line 131, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 section#gifts h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 138, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 section#livestream {
   padding-bottom: 2em;
   background-color: #e6dce7;
 }
-/* line 143, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 section#livestream h2 {
   margin-top: 1em;
   margin-bottom: 1em;
   color: #505050 !important;
 }
-/* line 149, ../sass/main.scss */
+/* line 160, ../sass/main.scss */
 section#livestream .player {
   margin: 2em auto;
   border: 1px solid #fff;
-  background-color: #70b6ea;
+  background-color: #222;
   height: 540px;
-  width: 960px;
+  width: 90%;
 }
-/* line 155, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 section#livestream .player i {
   font-size: 80px;
   margin-top: 230px;
   color: #fff;
 }
 
-/* line 163, ../sass/main.scss */
+/* line 174, ../sass/main.scss */
 section#footer {
   height: 4em;
 }
 
-/* line 167, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 #amazon {
   background-size: contain;
   background-repeat: no-repeat;
@@ -8967,12 +8979,12 @@ section#footer {
   animation: all 0.5s ease-in-out 0.5s;
 }
 
-/* line 175, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 #amazon:hover {
   background-image: url("../images/amazon-hover.jpg");
 }
 
-/* line 178, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 #paypal {
   background-size: contain;
   background-repeat: no-repeat;
@@ -8981,17 +8993,36 @@ section#footer {
   animation: all 0.5s ease-in-out 0.5s;
 }
 
-/* line 185, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 #paypal:hover {
   background-image: url("../images/paypal-hover.png");
 }
 
-/* line 189, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
+#ikea {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/ikea.jpg");
+  animation: all 0.5s ease-in-out 0.5s;
+  height: 40px;
+}
+
+/* line 208, ../sass/main.scss */
+#ikea:hover {
+  background-image: url("../images/ikea-hover.jpg");
+}
+
+/* line 212, ../sass/main.scss */
 #preload-01 {
   background: url("../images/paypal-hover.png") no-repeat -9999px -9999px;
 }
 
-/* line 190, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 #preload-02 {
   background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px;
+}
+
+/* line 214, ../sass/main.scss */
+#preload-03 {
+  background: url("../images/ikea-hover.jpg") no-repeat -9999px -9999px;
 }
