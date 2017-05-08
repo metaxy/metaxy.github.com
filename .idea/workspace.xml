@@ -18,11 +18,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="135" column="29" lean-forward="false" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="37" />
+            <state relative-caret-position="538">
+              <caret line="199" column="18" lean-forward="false" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
               <folding>
                 <element signature="e#83#88#0" expanded="true" />
                 <element signature="e#610#615#1" expanded="true" />
+                <element signature="e#6349#6354#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,8 +32,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="191" column="3" lean-forward="false" selection-start-line="191" selection-start-column="3" selection-end-line="191" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -217,12 +218,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494230629237</updated>
-      <workItem from="1494230631791" duration="16656000" />
+      <workItem from="1494230631791" duration="17397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16656000" />
+    <option name="totallyTimeSpent" value="17397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-3" width="1922" height="1030" extended-state="6" />
@@ -287,19 +288,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="135" column="29" lean-forward="false" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="37" />
+        <state relative-caret-position="538">
+          <caret line="199" column="18" lean-forward="false" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
           <folding>
             <element signature="e#83#88#0" expanded="true" />
             <element signature="e#610#615#1" expanded="true" />
+            <element signature="e#6349#6354#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="191" column="3" lean-forward="false" selection-start-line="191" selection-start-column="3" selection-end-line="191" selection-end-column="3" />
           <folding />
         </state>
       </provider>
