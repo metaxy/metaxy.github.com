@@ -8849,7 +8849,7 @@ section#intro {
   width: 100%;
   height: 100%;
   background-image: url(../images/strauss1.jpg);
-  background-color: #9fd5f1;
+  background-color: #245e8b;
 }
 /* line 69, ../sass/main.scss */
 section#intro .big-title {
@@ -8892,12 +8892,12 @@ section#venue .text {
 }
 /* line 104, ../sass/main.scss */
 section#venue .text a {
-  color: #5cb8e7;
+  color: #14354e;
 }
 
 /* line 110, ../sass/main.scss */
 section#photos {
-  background-color: #9fd5f1;
+  background-color: #245e8b;
   color: #fff;
   padding-bottom: 2em;
 }
@@ -8910,7 +8910,7 @@ section#photos h2 {
 
 /* line 121, ../sass/main.scss */
 section#about {
-  background-color: #9fd5f1;
+  background-color: #245e8b;
   color: #fff;
   padding-bottom: 2em;
 }
@@ -8942,7 +8942,7 @@ section#gifts h2 {
 /* line 149, ../sass/main.scss */
 section#livestream {
   padding-bottom: 2em;
-  background-color: #e6dce7;
+  background-color: #ffffff;
 }
 /* line 154, ../sass/main.scss */
 section#livestream h2 {
@@ -8980,7 +8980,7 @@ section#footer .big-title {
   font-family: "Playfair Display", serif;
   font-size: 120px;
   text-align: center;
-  color: #9fd5f1;
+  color: #245e8b;
   text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
 }
 /* line 188, ../sass/main.scss */
@@ -8994,7 +8994,7 @@ section#footer .date {
   font-size: 90px;
   font-weight: 600;
   text-align: center;
-  color: #9fd5f1;
+  color: #245e8b;
   text-shadow: rgba(0, 0, 0, 0.8) 2px 2px 2px;
 }
 
