@@ -8848,8 +8848,8 @@ section#intro {
   background-position: center;
   width: 100%;
   height: 100%;
-  background-image: url(../images/strauss1.jpg);
-  background-color: #245e8b;
+  background-image: url(../images/wir.jpg);
+  background-color: #8396a2;
 }
 /* line 69, ../sass/main.scss */
 section#intro .big-title {
@@ -8861,7 +8861,7 @@ section#intro .big-title {
 }
 /* line 74, ../sass/main.scss */
 section#intro .big-title .amp {
-  color: #e6dce7;
+  color: #e4e4e4;
 }
 /* line 79, ../sass/main.scss */
 section#intro .medium-title {
@@ -8881,76 +8881,102 @@ section#intro .date {
   text-shadow: #444 1px 1px 2px;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
+section#venue {
+  background-color: #fff;
+}
+/* line 99, ../sass/main.scss */
 section#venue h2 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 102, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 section#venue .text {
   margin-bottom: 2em;
 }
-/* line 104, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 section#venue .text a {
-  color: #14354e;
+  color: #5d707c;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
+section#vers {
+  background-color: #8396a2;
+  color: #fff;
+}
+/* line 114, ../sass/main.scss */
+section#vers h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #dae0e4;
+}
+/* line 119, ../sass/main.scss */
+section#vers .text {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+/* line 123, ../sass/main.scss */
+section#vers .text a {
+  color: #fff;
+}
+
+/* line 129, ../sass/main.scss */
 section#photos {
-  background-color: #245e8b;
+  background-color: #9aacaf;
   color: #fff;
   padding-bottom: 2em;
 }
-/* line 114, ../sass/main.scss */
+/* line 133, ../sass/main.scss */
 section#photos h2 {
   color: #fff !important;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 121, ../sass/main.scss */
+/* line 140, ../sass/main.scss */
 section#about {
-  background-color: #245e8b;
+  background-color: #c48f87;
   color: #fff;
   padding-bottom: 2em;
 }
-/* line 125, ../sass/main.scss */
+/* line 144, ../sass/main.scss */
 section#about h2 {
   color: #fff !important;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 131, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 section#about h3 {
   font: 42px "Kristi", sans-serif;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 section#gifts {
-  padding-bottom: 3em;
+  padding-bottom: 4em;
 }
-/* line 139, ../sass/main.scss */
+/* line 158, ../sass/main.scss */
 section#gifts .text {
   margin-bottom: 2em;
 }
-/* line 142, ../sass/main.scss */
+/* line 161, ../sass/main.scss */
 section#gifts h2 {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-/* line 149, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 section#livestream {
   padding-bottom: 2em;
   background-color: #ffffff;
 }
-/* line 154, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 section#livestream h2 {
   margin-top: 1em;
   margin-bottom: 1em;
   color: #505050 !important;
 }
-/* line 160, ../sass/main.scss */
+/* line 179, ../sass/main.scss */
 section#livestream .player {
   margin: 2em auto;
   border: 1px solid #fff;
@@ -8958,14 +8984,14 @@ section#livestream .player {
   height: 540px;
   width: 90%;
 }
-/* line 166, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 section#livestream .player i {
   font-size: 80px;
   margin-top: 230px;
   color: #fff;
 }
 
-/* line 174, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 section#footer {
   background-attachment: fixed;
   background-size: cover;
@@ -8975,30 +9001,30 @@ section#footer {
   background-image: url(../images/out.jpg);
   background-color: #eee;
 }
-/* line 183, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 section#footer .big-title {
   font-family: "Playfair Display", serif;
   font-size: 120px;
   text-align: center;
-  color: #245e8b;
+  color: #c48f87;
   text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
 }
-/* line 188, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 section#footer .big-title .amp {
-  color: #e6dce7;
+  color: #e4e4e4;
 }
-/* line 193, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 section#footer .date {
   margin-top: 1em;
   font-family: "Playfair Display", serif;
   font-size: 90px;
   font-weight: 600;
   text-align: center;
-  color: #245e8b;
+  color: #c48f87;
   text-shadow: rgba(0, 0, 0, 0.8) 2px 2px 2px;
 }
 
-/* line 206, ../sass/main.scss */
+/* line 225, ../sass/main.scss */
 #amazon {
   background-size: contain;
   background-repeat: no-repeat;
@@ -9007,26 +9033,12 @@ section#footer .date {
   animation: all 0.5s ease-in-out 0.5s;
 }
 
-/* line 214, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 #amazon:hover {
   background-image: url("../images/amazon-hover.jpg");
 }
 
-/* line 217, ../sass/main.scss */
-#paypal {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/paypal.png");
-  height: 40px;
-  animation: all 0.5s ease-in-out 0.5s;
-}
-
-/* line 224, ../sass/main.scss */
-#paypal:hover {
-  background-image: url("../images/paypal-hover.png");
-}
-
-/* line 228, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 #ikea {
   background-size: contain;
   background-repeat: no-repeat;
@@ -9035,22 +9047,17 @@ section#footer .date {
   height: 40px;
 }
 
-/* line 236, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 #ikea:hover {
   background-image: url("../images/ikea-hover.jpg");
 }
 
-/* line 240, ../sass/main.scss */
-#preload-01 {
-  background: url("../images/paypal-hover.png") no-repeat -9999px -9999px;
-}
-
-/* line 241, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 #preload-02 {
   background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px;
 }
 
-/* line 242, ../sass/main.scss */
+/* line 251, ../sass/main.scss */
 #preload-03 {
   background: url("../images/ikea-hover.jpg") no-repeat -9999px -9999px;
 }

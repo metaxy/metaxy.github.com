@@ -5,15 +5,15 @@
 @import "bootstrap-compass";
 @import "bootstrap";
 
-$color-1: #c8927e;
-$color-2: #f1b5b5;
-$color-3: #e6dce7;
-$color-4: #245e8b;
-$color-5: #70b6ea;
+$color-1: #c48f87;
+$color-2: #eecec5;
+$color-3: #dacbc1;
+$color-4: #8396a2;
+$color-5: #9aacaf;
 
 $intro-background: $color-4;
 $intro-text: #fff;
-$intro-text-amp: $color-3;
+$intro-text-amp: #e4e4e4;
 $intro-text-date: darken($intro-text, 10%);
 
 $section-heading: #505050;
@@ -63,7 +63,7 @@ section#intro {
   background-position: center;
   width: 100%;
   height: 100%;
-  background-image: url(../images/strauss1.jpg);
+  background-image: url(../images/wir.jpg);
   background-color: $intro-background;
 
   .big-title {
@@ -95,6 +95,7 @@ section#intro {
 }
 
 section#venue {
+  background-color: #fff;
   h2 {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -107,8 +108,26 @@ section#venue {
   }
 }
 
-section#photos {
+section#vers {
   background-color: $color-4;
+  color: #fff;
+  h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: lighten($color-4, 30%);
+  }
+  .text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2em;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+section#photos {
+  background-color: $color-5;
   color: #fff;
   padding-bottom: 2em;
   h2 {
@@ -119,7 +138,7 @@ section#photos {
 }
 
 section#about {
-  background-color: $color-4;
+  background-color: $color-1;
   color: #fff;
   padding-bottom: 2em;
   h2 {
@@ -135,13 +154,13 @@ section#about {
 }
 
 section#gifts {
-  padding-bottom: 3em;
+  padding-bottom: 4em;
   .text {
     margin-bottom: 2em;
   }
   h2 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 }
 
@@ -184,7 +203,7 @@ section#footer {
     font-family: "Playfair Display", serif;
     font-size: 120px;
     text-align: center;
-    color: $color-4;
+    color: $color-1;
     .amp {
       color: $intro-text-amp;
     }
@@ -196,7 +215,7 @@ section#footer {
     font-size: 90px;
     font-weight: 600;
     text-align: center;
-    color: $color-4;
+    color: $color-1;
     text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
 
   }
@@ -214,16 +233,7 @@ section#footer {
 #amazon:hover {
   background-image: url("../images/amazon-hover.jpg");
 }
-#paypal {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/paypal.png");
-  height: 40px;
-  animation: all 0.5s ease-in-out 0.5s;
-}
-#paypal:hover {
-  background-image: url("../images/paypal-hover.png");
-}
+
 
 #ikea {
   background-size: contain;
@@ -237,6 +247,5 @@ section#footer {
   background-image: url("../images/ikea-hover.jpg");
 }
 
-#preload-01 { background: url("../images/paypal-hover.png") no-repeat -9999px -9999px; }
 #preload-02 { background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px; }
 #preload-03 { background: url("../images/ikea-hover.jpg") no-repeat -9999px -9999px; }
