@@ -138,11 +138,11 @@ section#photos {
 }
 
 section#about {
-  background-color: $color-1;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   padding-bottom: 2em;
   h2 {
-    color: #fff !important;
+    color: $color-5 !important;
     margin-top: 1em;
     margin-bottom: 1em;
 
@@ -203,7 +203,7 @@ section#footer {
     font-family: "Playfair Display", serif;
     font-size: 120px;
     text-align: center;
-    color: $color-1;
+    color: $color-3;
     .amp {
       color: $intro-text-amp;
     }
@@ -215,37 +215,10 @@ section#footer {
     font-size: 90px;
     font-weight: 600;
     text-align: center;
-    color: $color-1;
+    color: $color-3;;
     text-shadow: rgba(0,0,0,0.8) 2px 2px 2px;
 
   }
 
 }
 
-#amazon {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/amazon.jpg");
-  height: 40px;
-  animation: all 0.5s ease-in-out 0.5s;
-
-}
-#amazon:hover {
-  background-image: url("../images/amazon-hover.jpg");
-}
-
-
-#ikea {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../images/ikea.jpg");
-  animation: all 0.5s ease-in-out 0.5s;
-  height: 40px;
-
-}
-#ikea:hover {
-  background-image: url("../images/ikea-hover.jpg");
-}
-
-#preload-02 { background: url("../images/amazon-hover.jpg") no-repeat -9999px -9999px; }
-#preload-03 { background: url("../images/ikea-hover.jpg") no-repeat -9999px -9999px; }
