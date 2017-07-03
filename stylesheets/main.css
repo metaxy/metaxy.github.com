@@ -8968,30 +8968,34 @@ section#gifts h2 {
 /* line 168, ../sass/main.scss */
 section#livestream {
   padding-bottom: 2em;
-  background-color: #ffffff;
+  background-color: #9aacaf;
 }
-/* line 173, ../sass/main.scss */
+/* line 172, ../sass/main.scss */
+section#livestream p {
+  color: #fff;
+}
+/* line 175, ../sass/main.scss */
 section#livestream h2 {
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #505050 !important;
+  color: #fff;
 }
-/* line 179, ../sass/main.scss */
+/* line 181, ../sass/main.scss */
 section#livestream .player {
   margin: 2em auto;
-  border: 1px solid #fff;
+  border: 1px solid #c5cfd1;
   background-color: #222;
   height: 540px;
   width: 90%;
 }
-/* line 185, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 section#livestream .player i {
   font-size: 80px;
   margin-top: 230px;
   color: #fff;
 }
 
-/* line 193, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 section#footer {
   background-attachment: fixed;
   background-size: cover;
@@ -9001,7 +9005,7 @@ section#footer {
   background-image: url(../images/out.jpg);
   background-color: #eee;
 }
-/* line 202, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 section#footer .big-title {
   font-family: "Playfair Display", serif;
   font-size: 120px;
@@ -9009,11 +9013,11 @@ section#footer .big-title {
   color: #dacbc1;
   text-shadow: rgba(0, 0, 0, 0.7) 2px 2px 2px;
 }
-/* line 207, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 section#footer .big-title .amp {
   color: #e4e4e4;
 }
-/* line 212, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 section#footer .date {
   margin-top: 1em;
   font-family: "Playfair Display", serif;
