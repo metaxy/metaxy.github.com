@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9873415-310d-4f6c-b97f-22b8c814a9a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/paulundanita.de.iml" afterPath="$PROJECT_DIR$/.idea/paulundanita.de.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
-    </list>
+    <list default="true" id="e9873415-310d-4f6c-b97f-22b8c814a9a4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,12 +250,12 @@
       <workItem from="1497263083928" duration="1108000" />
       <workItem from="1498227274159" duration="1421000" />
       <workItem from="1498470891213" duration="12000" />
-      <workItem from="1499070890408" duration="1261000" />
+      <workItem from="1499070890408" duration="1388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29669000" />
+    <option name="totallyTimeSpent" value="29796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-3" width="1922" height="1030" extended-state="6" />
